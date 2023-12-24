@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kun {
+    background: url('img/kun.jpg') no-repeat center center / cover;
+    transition: 2s;
+}
+
+.tun {
+    background: url('img/tun.jpg') no-repeat center center / cover;
+    transition: 2s;
+}
+
+.bi {
+    font-style: 20px;
+}
+
+button {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50%;
+}
